@@ -1,0 +1,95 @@
+/* 1350 */
+/* 1350 */
+/* 1350 */
+
+@media screen and (max-width: 1350px) {
+    .section-1 {
+        display: none;
+    }
+
+    .section-2 {
+        margin-left: 0px;
+        flex-basis: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+/* 1021px */
+/* 1021px */
+/* 1021px */
+
+@media screen and (max-width: 1021px) {
+    .section-3 .personal-info form .pi-wrapper,
+    .pin-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .section-3 .change-password input {
+        width: 99%;
+        height: 40px;
+        border-radius: 7px;
+        border: 1px solid #ccc;
+        padding-left: 12px;
+        padding-right: 12px;
+        font-size: 15px;
+        font-weight: 550;
+        color: #444B76;
+        font-family: 'Open sans', sans-serif;
+        outline: navajowhite;
+        appearance: none;
+    }
+    
+}
+
+/* 984px */
+/* 984px */
+/* 984px */
+
+@media screen and (max-width: 984px) {
+    .section-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+
+    .small-section {
+
+        width: 95%;
+        height: 222px;
+        background-color: white;
+        margin-top: 30px;
+        border-radius: 20px;
+        position: initial;
+        top: 20px;
+        box-shadow: 1px 1px 6px #ccc;
+    }
+
+    .section-3 .personal-info form input,
+    select {
+        width: 600px;
+        height: 40px;
+        border-radius: 7px;
+        border: 1px solid #ccc;
+        padding-left: 12px;
+        padding-right: 12px;
+        font-size: 15px;
+        font-weight: 550;
+        color: #444B76;
+        font-family: 'Open sans', sans-serif;
+        outline: navajowhite;
+        appearance: none;
+    }
+
+    .section-3 .personal-info form .account-holder {
+        width: 600px;
+    }
+
+    .section-3 {
+        margin-top: 28px;
+        width: 95%;
+    }
+}
